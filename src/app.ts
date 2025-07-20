@@ -3,11 +3,16 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import connectDB from './config/db';
 import importLogRoute from './routes/importLogs.route';
+import config from './config/config';
 
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: config.frontendUrl,
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE']
+}));
 app.use(express.json());
 
 app.use('/api/v1/import-logs', importLogRoute);
