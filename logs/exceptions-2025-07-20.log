@@ -1,0 +1,278 @@
+2025-07-20 16:57:48 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/importLog.service.ts[0m:[93m1[0m:[93m23[0m - [91merror[0m[90m TS2306: [0mFile 'E:/Web Development/JAVA SCRIPT/projects/job-importer/server/src/models/ImportLog.ts' is not a module.
+
+[7m1[0m import ImportLog from '../models/ImportLog';
+[7m [0m [91m                      ~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 16:58:01 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/ImportLog.ts[0m:[93m25[0m:[93m44[0m - [91merror[0m[90m TS2552: [0mCannot find name 'ImportLogSchema'. Did you mean 'importLogSchema'?
+
+[7m25[0m export default mongoose.model('ImportLog', ImportLogSchema);
+[7m  [0m [91m                                           ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/models/ImportLog.ts[0m:[93m3[0m:[93m7[0m
+    [7m3[0m const importLogSchema = new mongoose.Schema({
+    [7m [0m [96m      ~~~~~~~~~~~~~~~[0m
+    'importLogSchema' is declared here.
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 17:30:27 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/importLogs.controller.ts[0m:[93m6[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module '../services/importLog.service' or its corresponding type declarations.
+
+[7m6[0m } from '../services/importLog.service';
+[7m [0m [91m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 17:30:32 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/importLogs.route.ts[0m:[93m6[0m:[93m8[0m - [91merror[0m[90m TS2306: [0mFile 'E:/Web Development/JAVA SCRIPT/projects/job-importer/server/src/controllers/importLogs.controller.ts' is not a module.
+
+[7m6[0m } from '../controllers/importLogs.controller';
+[7m [0m [91m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 17:30:41 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/importLogs.route.ts[0m:[93m6[0m:[93m8[0m - [91merror[0m[90m TS2306: [0mFile 'E:/Web Development/JAVA SCRIPT/projects/job-importer/server/src/controllers/importLogs.controller.ts' is not a module.
+
+[7m6[0m } from '../controllers/importLogs.controller';
+[7m [0m [91m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 18:26:46 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jobFetcher.ts[0m:[93m57[0m:[93m35[0m - [91merror[0m[90m TS2552: [0mCannot find name 'importLog'. Did you mean 'ImportLog'?
+
+[7m57[0m                         importId: importLog._id.toString()
+[7m  [0m [91m                                  ~~~~~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 18:26:50 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/jobFetcher.ts[0m:[93m58[0m:[93m35[0m - [91merror[0m[90m TS2552: [0mCannot find name 'importLog'. Did you mean 'ImportLog'?
+
+[7m58[0m                         importId: importLog._id.toString()
+[7m  [0m [91m                                  ~~~~~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 23:55:03 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/redis.ts[0m:[93m10[0m:[93m25[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 8, '(path: string, options: RedisOptions): Redis', gave the following error.
+    Argument of type '{ username: string; password: string; socket: { host: string; port: number; }; }' is not assignable to parameter of type 'string'.
+  Overload 2 of 8, '(port: number, options: RedisOptions): Redis', gave the following error.
+    Argument of type '{ username: string; password: string; socket: { host: string; port: number; }; }' is not assignable to parameter of type 'number'.
+  Overload 3 of 8, '(port: number, host: string): Redis', gave the following error.
+    Argument of type '{ username: string; password: string; socket: { host: string; port: number; }; }' is not assignable to parameter of type 'number'.
+
+[7m 10[0m const redis = new Redis({
+[7m   [0m [91m                        ~[0m
+[7m 11[0m     username: 'default',
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m 16[0m     }
+[7m   [0m [91m~~~~~[0m
+[7m 17[0m }, {
+[7m   [0m [91m~[0m
+
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 23:55:13 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/redis.ts[0m:[93m10[0m:[93m19[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 8, '(options: RedisOptions): Redis', gave the following error.
+    Object literal may only specify known properties, and 'socket' does not exist in type 'RedisOptions'.
+  Overload 2 of 8, '(port: number): Redis', gave the following error.
+    Argument of type '{ username: string; password: string; socket: { host: string; port: number; }; }' is not assignable to parameter of type 'number'.
+  Overload 3 of 8, '(path: string): Redis', gave the following error.
+    Argument of type '{ username: string; password: string; socket: { host: string; port: number; }; }' is not assignable to parameter of type 'string'.
+
+[7m10[0m const redis = new Redis({
+[7m  [0m [91m                  ~~~~~[0m
+
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 23:55:19 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/redis.ts[0m:[93m10[0m:[93m19[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 8, '(options: RedisOptions): Redis', gave the following error.
+    Object literal may only specify known properties, and 'socket' does not exist in type 'RedisOptions'.
+  Overload 2 of 8, '(port: number): Redis', gave the following error.
+    Argument of type '{ username: string; password: string; socket: { host: string; port: number; }; maxRetriesPerRequest: null; }' is not assignable to parameter of type 'number'.
+  Overload 3 of 8, '(path: string): Redis', gave the following error.
+    Argument of type '{ username: string; password: string; socket: { host: string; port: number; }; maxRetriesPerRequest: null; }' is not assignable to parameter of type 'string'.
+
+[7m10[0m const redis = new Redis({
+[7m  [0m [91m                  ~~~~~[0m
+
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 23:55:29 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/redis.ts[0m:[93m10[0m:[93m19[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 8, '(options: RedisOptions): Redis', gave the following error.
+    Object literal may only specify known properties, and 'socket' does not exist in type 'RedisOptions'.
+  Overload 2 of 8, '(port: number): Redis', gave the following error.
+    Argument of type '{ username: string; password: string | undefined; socket: { host: string; port: number; }; maxRetriesPerRequest: null; }' is not assignable to parameter of type 'number'.
+  Overload 3 of 8, '(path: string): Redis', gave the following error.
+    Argument of type '{ username: string; password: string | undefined; socket: { host: string; port: number; }; maxRetriesPerRequest: null; }' is not assignable to parameter of type 'string'.
+
+[7m10[0m const redis = new Redis({
+[7m  [0m [91m                  ~~~~~[0m
+
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 23:55:40 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/redis.ts[0m:[93m10[0m:[93m19[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 8, '(options: RedisOptions): Redis', gave the following error.
+    Object literal may only specify known properties, and 'socket' does not exist in type 'RedisOptions'.
+  Overload 2 of 8, '(port: number): Redis', gave the following error.
+    Argument of type '{ username: string; password: string | undefined; socket: { host: string; port: number; }; maxRetriesPerRequest: null; }' is not assignable to parameter of type 'number'.
+  Overload 3 of 8, '(path: string): Redis', gave the following error.
+    Argument of type '{ username: string; password: string | undefined; socket: { host: string; port: number; }; maxRetriesPerRequest: null; }' is not assignable to parameter of type 'string'.
+
+[7m10[0m const redis = new Redis({
+[7m  [0m [91m                  ~~~~~[0m
+
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 23:55:50 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/config/redis.ts[0m:[93m10[0m:[93m19[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 8, '(options: RedisOptions): Redis', gave the following error.
+    Object literal may only specify known properties, and 'socket' does not exist in type 'RedisOptions'.
+  Overload 2 of 8, '(port: number): Redis', gave the following error.
+    Argument of type '{ username: string; password: string | undefined; socket: { host: string; port: number; }; maxRetriesPerRequest: null; }' is not assignable to parameter of type 'number'.
+  Overload 3 of 8, '(path: string): Redis', gave the following error.
+    Argument of type '{ username: string; password: string | undefined; socket: { host: string; port: number; }; maxRetriesPerRequest: null; }' is not assignable to parameter of type 'string'.
+
+[7m10[0m const redis = new Redis({
+[7m  [0m [91m                  ~~~~~[0m
+
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-20 23:59:51 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/queues/jobQueue.ts[0m:[93m2[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"E:/Web Development/JAVA SCRIPT/projects/job-importer/server/src/config/redis"' has no default export.
+
+[7m2[0m import redis from "../config/redis"
+[7m [0m [91m       ~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)

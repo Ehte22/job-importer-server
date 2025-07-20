@@ -1,0 +1,165 @@
+2025-07-21 00:29:43 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:30:10 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:31:19 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:11:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:31:23 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:31:45 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:35:38 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:36:56 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:37:22 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/jobFetch.service.ts[0m:[93m41[0m:[93m27[0m - [91merror[0m[90m TS2448: [0mBlock-scoped variable 'BATCH_SIZE' used before its declaration.
+
+[7m41[0m     console.log('Batch:', BATCH_SIZE, 'Concurrency:', CONCURRENCY);
+[7m  [0m [91m                          ~~~~~~~~~~[0m
+
+  [96msrc/services/jobFetch.service.ts[0m:[93m42[0m:[93m11[0m
+    [7m42[0m     const BATCH_SIZE = config.jobFetch.batchSize;
+    [7m  [0m [96m          ~~~~~~~~~~[0m
+    'BATCH_SIZE' is declared here.
+[96msrc/services/jobFetch.service.ts[0m:[93m41[0m:[93m27[0m - [91merror[0m[90m TS2454: [0mVariable 'BATCH_SIZE' is used before being assigned.
+
+[7m41[0m     console.log('Batch:', BATCH_SIZE, 'Concurrency:', CONCURRENCY);
+[7m  [0m [91m                          ~~~~~~~~~~[0m
+[96msrc/services/jobFetch.service.ts[0m:[93m41[0m:[93m55[0m - [91merror[0m[90m TS2448: [0mBlock-scoped variable 'CONCURRENCY' used before its declaration.
+
+[7m41[0m     console.log('Batch:', BATCH_SIZE, 'Concurrency:', CONCURRENCY);
+[7m  [0m [91m                                                      ~~~~~~~~~~~[0m
+
+  [96msrc/services/jobFetch.service.ts[0m:[93m43[0m:[93m11[0m
+    [7m43[0m     const CONCURRENCY = config.jobFetch.concurrency;
+    [7m  [0m [96m          ~~~~~~~~~~~[0m
+    'CONCURRENCY' is declared here.
+[96msrc/services/jobFetch.service.ts[0m:[93m41[0m:[93m55[0m - [91merror[0m[90m TS2454: [0mVariable 'CONCURRENCY' is used before being assigned.
+
+[7m41[0m     console.log('Batch:', BATCH_SIZE, 'Concurrency:', CONCURRENCY);
+[7m  [0m [91m                                                      ~~~~~~~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-21 00:37:26 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:39:04 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:39:16 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:39:25 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/jobFetch.service.ts[0m:[93m84[0m:[93m29[0m - [91merror[0m[90m TS2552: [0mCannot find name 'limit'. Did you mean 'pLimit'?
+
+[7m84[0m                             limit(() =>
+[7m  [0m [91m                            ~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-21 00:40:51 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:41:46 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/jobFetch.service.ts[0m:[93m85[0m:[93m59[0m - [91merror[0m[90m TS2304: [0mCannot find name 'index'.
+
+[7m85[0m                                 console.log(`Adding job ${index + 1}`);
+[7m  [0m [91m                                                          ~~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-21 00:42:13 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:42:31 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:45:07 [error]: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/jobFetch.service.ts[0m:[93m82[0m:[93m41[0m - [91merror[0m[90m TS2304: [0mCannot find name 'jobs'.
+
+[7m82[0m                     for (let i = 0; i < jobs.length; i += BATCH_SIZE) {
+[7m  [0m [91m                                        ~~~~[0m
+[96msrc/services/jobFetch.service.ts[0m:[93m83[0m:[93m39[0m - [91merror[0m[90m TS2304: [0mCannot find name 'jobs'.
+
+[7m83[0m                         const batch = jobs.slice(i, i + BATCH_SIZE);
+[7m  [0m [91m                                      ~~~~[0m
+
+    at createTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
+2025-07-21 00:45:57 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
+2025-07-21 00:46:03 [error]: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\p-limit\index.js from E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts not supported.
+Instead change the require of index.js in E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\src\services\jobFetch.service.ts:12:35)
+    at m._compile (E:\Web Development\JAVA SCRIPT\projects\job-importer\server\node_modules\ts-node\dist\index.js:857:29)
