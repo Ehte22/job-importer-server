@@ -1534,3 +1534,27 @@
 2025-07-21 00:50:47 [info]: Job 1385 has been completed.
 2025-07-21 00:50:47 [info]: Job 1386 has been completed.
 2025-07-21 00:50:47 [info]: Job 1387 has been completed.
+2025-07-21 01:40:05 [info]: Initial fetch and queue on app start...
+2025-07-21 01:40:05 [info]: Redis connected
+2025-07-21 01:40:05 [info]: MongoDB connected: ac-v6wuotg-shard-00-00.ponmbct.mongodb.net
+2025-07-21 01:40:07 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed
+2025-07-21 01:40:07 [info]: Parsed 7 jobs from https://jobicy.com/?feed=job_feed&job_categories=smm&job_types=full-time
+2025-07-21 01:40:08 [info]: Parsed 11 jobs from https://jobicy.com/?feed=job_feed&job_categories=seller&job_types=full-time&search_region=france
+2025-07-21 01:40:09 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed&job_categories=design-multimedia
+2025-07-21 01:40:09 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed&job_categories=data-science
+2025-07-21 01:40:10 [info]: Parsed 33 jobs from https://jobicy.com/?feed=job_feed&job_categories=copywriting
+2025-07-21 01:40:10 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed&job_categories=business
+2025-07-21 01:40:11 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed&job_categories=management
+2025-07-21 01:40:11 [warn]: No items found in feed: https://www.higheredjobs.com/rss/articleFeed.cfm
+2025-07-21 01:40:41 [info]: Initial fetch and queue on app start...
+2025-07-21 01:40:41 [info]: Redis connected
+2025-07-21 01:40:41 [info]: MongoDB connected: ac-v6wuotg-shard-00-00.ponmbct.mongodb.net
+2025-07-21 01:40:42 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed
+2025-07-21 01:40:43 [info]: Parsed 7 jobs from https://jobicy.com/?feed=job_feed&job_categories=smm&job_types=full-time
+2025-07-21 01:40:43 [info]: Parsed 11 jobs from https://jobicy.com/?feed=job_feed&job_categories=seller&job_types=full-time&search_region=france
+2025-07-21 01:40:43 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed&job_categories=design-multimedia
+2025-07-21 01:40:44 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed&job_categories=data-science
+2025-07-21 01:40:44 [info]: Parsed 33 jobs from https://jobicy.com/?feed=job_feed&job_categories=copywriting
+2025-07-21 01:40:45 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed&job_categories=business
+2025-07-21 01:40:45 [info]: Parsed 50 jobs from https://jobicy.com/?feed=job_feed&job_categories=management
+2025-07-21 01:40:45 [warn]: No items found in feed: https://www.higheredjobs.com/rss/articleFeed.cfm
